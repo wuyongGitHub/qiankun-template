@@ -1,0 +1,2 @@
+# qiankun-template
+在当今的前端开发中，微前端架构已经成为了一种流行的架构模式。本文将介绍如何结合Vue 2或vue3基座、Vue3子应用、Vite构建工具和TypeScript语言，利用qiankun微前端框架实现动态菜单和登录共享功能的实战指南。
