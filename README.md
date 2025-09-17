@@ -375,6 +375,7 @@ export default router;
 
 | 编号 | 好处                          | 说明                                               |
 | -- | --------------------------- | ------------------------------------------------ |
+
 | 1  |  避免路由刷新后 404               | 页面刷新（F5）后仍能正确加载当前路由页面，不报错。                       |
 | 2  |  子应用路径不和主应用冲突              | 子应用只处理 `props.baseName` 下的路径，避免与主应用路由冲突。         |
 | 3  |  动态挂载路径适配性强                | 子应用不固定在某个路径下，可以根据主应用挂载路径动态调整，无需硬编码。              |
@@ -387,6 +388,7 @@ export default router;
 | 10 |  更好的团队协作                   | 子应用团队只需专注于自身逻辑，主应用控制挂载路径，提高协作效率。                 |
 
 子应用路由配置要和主应用对应，如下：
+
 ```javascript
 import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router';
 import type { RouteRecordRaw } from 'vue-router';
